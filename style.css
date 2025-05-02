@@ -67,9 +67,9 @@ header a:hover {
     border-radius: 5px;
 }
 .slogan {
-    background-color:rgb(13, 25, 36);
+    background-color:rgba(13, 25, 36, 0.851);
     color:rgb(255, 255, 255);
-    height:250px;
+    height:600px;
     display:flex;
     justify-content: center;
     align-items: center;
