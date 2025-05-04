@@ -229,17 +229,10 @@ header h1 {
     margin-bottom: 30px;
 }
 .slogan {
-    background-color: rgba(13, 25, 36, 0.851);
-    color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     font-size: 16px;
     line-height: 1.6em;
     padding: 30px 15px;
-    text-align: center;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 html, body {
     max-width: 100%;
