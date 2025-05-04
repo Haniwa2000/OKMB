@@ -234,6 +234,15 @@ header h1 {
     padding: 30px 15px;
     flex-direction: column;
 }
+body {
+    line-height: 1.8;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+p {
+    line-height: 1.8;
+    margin: 10px 0;
+}
 html, body {
     max-width: 100%;
     overflow-x: hidden;
