@@ -217,6 +217,9 @@ header h1 {
 .info {
     width:100%;
     padding:40px 0;
+    overflow: visible;       /* ← 新增這行 */
+    line-height: 1.8em;      /* ← 強化行高 */
+    word-break: break-word;  /* ← 確保日文或中文不會超出 */
 }
 .info h2 {
     font-size:30px;
