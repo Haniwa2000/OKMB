@@ -76,6 +76,16 @@ header a:hover {
     font-size: 20px;
     line-height: 1.8em;  
 }
+.slogan2 {
+    background-color:rgba(13, 25, 36, 0.851);
+    color:rgb(255, 255, 255);
+    height:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 1.8em;     
+}
 .shop {
     display:flex;
 }
@@ -170,7 +180,8 @@ footer {
 }
 .menu {
     display:none;
-}
+}   
+
 /* 響應式設計語法 */
 @media screen and (max-width: 768px) {
 .product img {
@@ -233,6 +244,12 @@ header h1 {
     margin-bottom: 30px;
 }
 .slogan {
+    font-size: 16px;
+    line-height: 1.6em;
+    padding: 30px 15px;
+    flex-direction: column;
+}
+.slogan2 {
     font-size: 16px;
     line-height: 1.6em;
     padding: 30px 15px;
